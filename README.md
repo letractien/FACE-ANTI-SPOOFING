@@ -40,13 +40,13 @@ The Dataset directory follows a pipeline of data processing:
 
 ```
 Dataset/
-├── Data/                    # Original available data
-│   ├── images/             # Original images
-│   └── labels/             # Original labels
+├── Data/                   # Original available data
+│   ├── normal/             # Original images
+│   └── spoof/              # Original labels
 │
 ├── DataStandard/           # Standardized data
-│   ├── images/             # Standardized images
-│   └── labels/             # Standardized labels
+│   ├── normal/             # Standardized images
+│   └── spoof/              # Standardized labels
 │
 ├── DataCollect/            # Labeled data
 │   ├── images/             # Labeled images
